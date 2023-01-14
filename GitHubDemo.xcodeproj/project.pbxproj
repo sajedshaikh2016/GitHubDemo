@@ -14,6 +14,7 @@
 		B442B2DB2972872D0084CE23 /* GitHubDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B442B2DA2972872D0084CE23 /* GitHubDemoTests.swift */; };
 		B442B2E52972872D0084CE23 /* GitHubDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B442B2E42972872D0084CE23 /* GitHubDemoUITests.swift */; };
 		B442B2E72972872D0084CE23 /* GitHubDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B442B2E62972872D0084CE23 /* GitHubDemoUITestsLaunchTests.swift */; };
+		B442B2F4297287A60084CE23 /* NewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B442B2F3297287A60084CE23 /* NewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		B442B2E02972872D0084CE23 /* GitHubDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitHubDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B442B2E42972872D0084CE23 /* GitHubDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubDemoUITests.swift; sourceTree = "<group>"; };
 		B442B2E62972872D0084CE23 /* GitHubDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B442B2F3297287A60084CE23 /* NewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				B442B2CB2972872C0084CE23 /* ContentView.swift */,
 				B442B2CD2972872D0084CE23 /* Assets.xcassets */,
 				B442B2CF2972872D0084CE23 /* Preview Content */,
+				B442B2F3297287A60084CE23 /* NewView.swift */,
 			);
 			path = GitHubDemo;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B442B2F4297287A60084CE23 /* NewView.swift in Sources */,
 				B442B2CC2972872C0084CE23 /* ContentView.swift in Sources */,
 				B442B2CA2972872C0084CE23 /* GitHubDemoApp.swift in Sources */,
 			);
